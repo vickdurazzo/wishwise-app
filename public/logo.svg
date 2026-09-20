@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <!-- Quarentena de Desejos - Official App Logo -->
+  <defs>
+    <style>
+      .brand-green { fill: #386b52; }
+      .brand-white { fill: #ffffff; }
+      .brand-vein { stroke: #ffffff; stroke-width: 15; stroke-linecap: round; fill: none; }
+    </style>
+  </defs>
+
+  <g class="brand-green">
+    <!-- 1. Outer Left Leaf Crescent -->
+    <path d="M 400 950
+             C 285 940 195 845 165 715
+             C 145 615 165 485 240 375
+             C 230 420 215 510 235 610
+             C 255 700 310 795 385 860
+             C 340 885 365 925 400 950 Z" />
+
+    <!-- 2. Main Center Leaf -->
+    <path d="M 325 815
+             C 270 710 248 555 268 415
+             C 290 245 425 140 645 100
+             C 650 145 650 250 598 385
+             C 545 505 450 635 348 745
+             C 335 770 328 795 325 815 Z" />
+
+    <!-- Central Vein of the Leaf (White Cutout Arc) -->
+    <path class="brand-vein" d="M 330 790 C 355 650 445 420 635 115" />
+
+    <!-- 3. Bottom & Right Enclosing Swoosh -->
+    <path d="M 390 880
+             C 415 940 480 960 555 955
+             C 665 940 765 860 795 730
+             C 798 710 800 660 792 615
+             C 780 665 760 720 715 775
+             C 655 845 575 890 485 895
+             C 440 896 408 888 390 880 Z" />
+
+    <!-- 4. Dynamic Checkmark -->
+    <path d="M 525 690
+             C 550 695 585 730 625 820
+             C 680 730 775 600 875 500
+             C 835 550 750 675 640 815
+             C 595 765 565 720 525 690 Z" />
+
+    <!-- 5. Stack of 3 Coins in 3D Perspective -->
+    <g transform="translate(472, 830)">
+      <!-- Coin 1 (Top) -->
+      <!-- Outer Top Rim -->
+      <ellipse cx="0" cy="-78" rx="85" ry="34" />
+      <!-- White Surface Inner Inset -->
+      <ellipse cx="0" cy="-78" rx="72" ry="24" class="brand-white" />
+      <!-- Inner Embossed Ring Detail -->
+      <ellipse cx="0" cy="-78" rx="60" ry="18" fill="#f4f8f5" />
+      
+      <!-- Coin 1 Body (Sides) -->
+      <path d="M -85 -78 C -85 -57 -40 -41 0 -41 C 40 -41 85 -57 85 -78 L 85 -50 C 85 -29 40 -13 0 -13 C -40 -13 -85 -29 -85 -50 Z" />
+
+      <!-- Gap / Divider 1 -->
+      <path d="M -85 -48 C -85 -27 -40 -11 0 -11 C 40 -11 85 -27 85 -48 L 85 -43 C 85 -22 40 -6 0 -6 C -40 -6 -85 -22 -85 -43 Z" class="brand-white" />
+
+      <!-- Coin 2 (Middle) Body -->
+      <path d="M -85 -42 C -85 -21 -40 -5 0 -5 C 40 -5 85 -21 85 -42 L 85 -14 C 85 7 40 23 0 23 C -40 23 -85 7 -85 -14 Z" />
+
+      <!-- Gap / Divider 2 -->
+      <path d="M -85 -12 C -85 9 -40 25 0 25 C 40 25 85 9 85 -12 L 85 -7 C 85 14 40 30 0 30 C -40 30 -85 14 -85 -7 Z" class="brand-white" />
+
+      <!-- Coin 3 (Bottom) Body -->
+      <path d="M -85 -6 C -85 15 -40 31 0 31 C 40 31 85 15 85 -6 L 85 22 C 85 43 40 59 0 59 C -40 59 -85 43 -85 22 Z" />
+    </g>
+  </g>
+</svg>

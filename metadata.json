@@ -1,0 +1,6 @@
+{
+  "name": "Quarentena de Desejos",
+  "description": "Aplicativo de consumo consciente para colocar desejos de compra em reflexão e economizar dinheiro com clareza mental.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
